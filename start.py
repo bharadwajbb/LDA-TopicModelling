@@ -9,14 +9,6 @@ from helper_functions import *
 from datetime import datetime
 
 
-EXTRACTION = False
-PREPROCESSING = True
-TRANSFORMATION = False
-DATAMINING = False
-EVALUATION = False
-INTERPRETATION = False
-
-
 if __name__ == "__main__":
 	extraction = Extraction()
 	extraction.extract_publications()
